@@ -1,0 +1,235 @@
+body:before{
+	content:"";
+	display: block;
+	width:100%;
+	height: 8px;
+	background: #00989e;
+	position: absolute;
+	top:0;
+	left:0;
+}
+body:after{
+	content:"";
+	display: block;
+	width:100%;
+	height: 8px;
+	background: #00989e;
+	position: absolute;
+	
+	left:0;
+}
+.navtop{
+	padding-top:20px;
+}
+.input{
+	position: relative;
+}
+.input input{
+	padding:10px 12px;
+	height:40px;
+	width:457px !important;
+}
+.input button{
+	position: absolute;
+	right:0;
+	top:50%;
+	margin-top:-16px;
+	border:none;
+	background: transparent;
+}
+.navbar-right a{
+	color:#00989e;
+	font-size: 18px;
+	
+}
+.navbar-right li:nth-of-type(1) a{
+	padding-left: 20px;
+	background: url(../images/grazegouwuche.png)no-repeat;
+	background-position:0 50% ;
+}
+.navbar-right li:nth-of-type(2) a{
+	padding-left: 20px;
+	background: url(../images/grazeren.png)no-repeat;
+	background-position:0 50% ;
+}
+.togglebtn span{
+	background: #888;
+}
+.banner{
+	background: url(../images/grazepic1.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.bannerson{
+	padding-top:4em ;
+	padding-bottom:4em ;
+}
+.bannertop{
+	background: rgba(255,255,255,.9);
+	border-radius: 5px;
+	padding:2em 4em;
+}
+.bannertop>h2{
+	color:#00989e;
+	margin-top:0;
+}
+.bannertop>p{
+	font-size: 18px;
+	color:#666;
+}
+.bannertop>p>a{
+	color:#000;
+	text-decoration: underline;
+}
+.bannertop li{
+	list-style: none;
+	padding-left: 2em;
+	line-height: 50px;
+	font-size: 18px;
+	color:#666;
+	background: url(../images/grazegou.svg) no-repeat;
+	background-position: 0 center;
+	background-size: 7%;
+}
+.bannertop>.abtn{
+	font-size: 24px;
+	background: #64ac35;
+	line-height: 30px;
+	color:#fff;
+	padding:10px 16px;
+	margin-top:30px;
+}
+.bannertop>.abtn>span{
+	font-size:18px;
+	margin-top:-9px;
+}
+.bannertop>span{
+	color:#64ac35;
+	padding:2em 0;
+}
+.bannertop>span>.ba{
+	color:#64ac35;
+	padding-left: 8px;
+	text-decoration: underline;
+}
+.quanfa{
+	position: relative;
+}
+.quanfa .quan{
+	padding:2em;
+	border:5px solid #0f9ea3;
+	text-align: center;
+	border-radius: 50%;
+	background: #fff;
+	position: absolute;
+	right:0;
+	top:0;
+	transform:rotate(15deg);
+}
+.quanfa .quan span{
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	color:#0f9ea3;
+	line-height: 25px;
+}
+
+/*.triangle{
+	width:100px;
+	height:50px;
+	border-top:50px solid transparent;
+	border-left:50px solid #fff;
+	border-right:50px solid #fff;
+	position: absolute;
+	bottom: 0;
+	left:50%;
+	margin-left:-50px;
+	
+}*/
+.midpic{
+	padding-top:6em; 
+}
+.midpicp{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.midp{
+	padding-top:4em;
+	
+}
+.midp h2{
+	color:#0f9ea3;
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.midp li{
+	list-style: none;
+	position: relative;
+	background: url(../images/grazemark.png) no-repeat;
+	
+}
+
+.midp li p{
+	color:#0f9ea3;
+	font-size: 18px;
+	padding-right:2em;
+	padding-top:1em;
+}
+
+.midp span{
+	display: block;
+	text-align: center;
+	padding-top:2em;
+}
+.bottomfo{
+	padding-top:4em;
+	padding-bottom:4em;
+}
+.bottomfo .links{
+	width:156px;
+	margin: 30px auto;
+}
+.bottomfo ul{
+	border-top:1px solid #00989e;
+	border-bottom:1px solid #00989e;
+	width:100%;
+	overflow: hidden;
+}
+.bottomfo ul li{
+	list-style: none;
+	text-align: center;
+	float:left;
+	width:14.28%;
+	line-height: 50px;
+}
+.bottomfo ul li a{
+	color:#00989e;
+}
+.bottomfo ul li:hover{
+	background: #eee;
+}
+.bottomfo ul li:hover a{
+	text-decoration: none;
+	color:#333;
+}
+.bottomfo>p{
+	text-align: right;
+	color:#00989e;
+	font-size: 8px;
+}
+.boimg{
+	text-align: right;
+}
+@media only screen and (max-width: 768px){
+	.bottomfo ul li{
+		width:100%;
+	}
+	.quanfa .quan{
+		display: none;
+	}
+	.input input{
+		width:100% !important;
+	}
+}

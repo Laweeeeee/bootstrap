@@ -1,0 +1,40 @@
+body{
+	background: #eee;
+}
+.carousel-control.left,.carousel-control.right{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.lbt a:hover{
+	text-decoration: none;
+}
+.lbt h2{
+	font-size: 36px;
+	color:#fff;
+}
+.carousel-caption{
+	top:50%;
+	
+}
+.pics{
+	padding-top:4em;
+	
+}
+
+.pics li{
+	list-style: none;
+	padding:1em;
+	
+}
+.pics li>div{
+	background: #fff;
+	padding:1em;
+}
+.pics li>div>p{
+	text-align: center;
+	font-size: 24px;
+	padding-top:1em;
+}
+.pics li a img{
+	width:100%;
+}
+

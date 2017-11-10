@@ -1,0 +1,67 @@
+.hnav{
+	height:80px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+.navbar-right{
+	background: #fff;
+}
+.navbar-nav > li > a{
+	line-height: 40px;
+}
+ /*改变到导航栏的样式*/  
+.navbar-nav > li:hover a{
+	background: none;
+	color:lightskyblue;
+}
+/*轮播图两侧*/
+.lbig{
+	padding-top:7em;
+}
+.carousel-control.left,.carousel-control.right{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.lpp>img{
+	width:100%;
+}
+.wrap{
+	margin-top:2em;
+	padding:0;
+	
+}
+.wrap>ul{
+	overflow: hidden;
+	
+}
+.wrap>ul>li{
+	float:left;
+	list-style: none;
+}
+.wrap>ul>li li{
+	list-style: inside;
+}
+.bto{
+	padding-top:1em;
+	border-bottom: 1px solid #ccc;
+}
+.wrap>ul>li>img{
+	width:100%;
+}
+.share{
+	overflow: hidden;
+	list-style: none;
+	
+}
+.share>li{
+	float:left;
+	margin:15px;
+}
+.share>li>a>img{
+	height:30px;
+	text-align: center;
+}
+.btop{
+	padding:2em 0;
+	text-align: center;
+}
