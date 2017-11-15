@@ -39,6 +39,12 @@ body{
 	.lbt h2{
 		font-size: 18px;
 	}
+	.pics{
+	
+		padding-right: 0;
+	   	padding-left: 0;
+	  
+	}
 	.main{
 		width:100%;
 	}
@@ -47,5 +53,6 @@ body{
 	}
 	.pics li>div{
 		width:100%;
+		padding:0;
 	}
 }
