@@ -37,4 +37,18 @@ body{
 .pics li a img{
 	width:100%;
 }
-
+@media only screen and (max-width: 768px) {
+	
+	.lbt h2{
+		font-size: 18px;
+	}
+	.main{
+		width:100%;
+	}
+	.pics li{
+		width:100%;
+	}
+	.pics li>div{
+		width:100%;
+	}
+}
